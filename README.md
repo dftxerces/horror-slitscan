@@ -45,7 +45,7 @@ Interaction is intentionally restrained: the user's only agency is selection. On
 
 
 <div align="center">
-  <img src="./images/slit-preview.png" width="100%" alt="Seventh Victim Banner" />
+  <img src="./images/slit-preview.png" width="40%" alt="Seventh Victim Banner" />
 </div>
 
 **Interface**
