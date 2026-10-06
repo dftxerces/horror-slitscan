@@ -1,4 +1,4 @@
-# Procedural Sensory Gallery
+# Horror-Slitscan
 
 *A generative audiovisual artwork that turns horror trailers into abstract slit-scan traces and reactive sound.*
 
@@ -6,7 +6,7 @@
 
 ## About
 
-Procedural Sensory Gallery is a web-based generative art piece built around the ideas of **contaminated media** and **found footage**. The user picks a film noir-era horror trailer (*The Seventh Victim*, *The Haunting* or *Cat People*) and the system strips away its narrative, dialogue and soundtrack, keeping only **luminance data**. That data drives a new abstract visual surface and a synthetic soundscape, shifting focus from storytelling to mood, texture and distortion.
+Horror-Slitscan is a web-based generative art piece built around the ideas of **contaminated media** and **found footage**. The user picks a film noir-era horror trailer (*The Seventh Victim*, *The Haunting* or *Cat People*) and the system strips away its narrative, dialogue and soundtrack, keeping only **luminance data**. That data drives a new abstract visual surface and a synthetic soundscape, shifting focus from storytelling to mood, texture and distortion.
 
 Interaction is intentionally restrained: the user's only agency is selection. Once a film is chosen, the system runs autonomously and the user becomes an observer.
 
