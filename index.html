@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>pick your poison</title>
+
+    <link
+      href="'https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap'"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <!-- selection screen -->
+    <div id="landing">
+      <div class="landing-inner">
+        <header class="landing-header">
+          <h1>pick your poison</h1>
+        </header>
+
+        <section class="film-grid">
+          <!-- MOVIE 1 -->
+          <div class="film-card card-1" onclick="setTrailer('/assets/movie.mp4')">
+            <div class="film-frame">
+              <video
+                class="film-preview"
+                src="/assets/movie.mp4"
+                muted
+                loop
+                autoplay
+                playsinline
+              ></video>
+            </div>
+            <div class="film-meta">
+              <span class="film-title">the seventh victim..</span>
+            </div>
+          </div>
+
+          <!-- MOVIE 2 -->
+          <div class="film-card card-2" onclick="setTrailer('/assets/movie1.mp4')">
+            <div class="film-frame">
+              <video
+                class="film-preview"
+                src="/assets/movie1.mp4"
+                muted
+                loop
+                autoplay
+                playsinline
+              ></video>
+            </div>
+            <div class="film-meta">
+              <span class="film-title">the haunting..</span>
+            </div>
+          </div>
+
+          <!-- MOVIE 3 -->
+          <div class="film-card card-3" onclick="setTrailer('/assets/movie2.mp4')">
+            <div class="film-frame">
+              <video
+                class="film-preview"
+                src="/assets/movie2.mp4"
+                muted
+                loop
+                autoplay
+                playsinline
+              ></video>
+            </div>
+            <div class="film-meta">
+              <span class="film-title">cat people..</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- p5 canvas -->
+    <div id="canvas-container" class="hidden"></div>
+
+    <!-- save -->
+    <button id="button" class="hidden">save</button>
+
+    <!-- back -->
+    <button id="backButton" class="hidden" aria-label="Back">
+      <span class="arrow-left"></span>
+    </button>
+
+    <script src="sketch.js"></script>
+    <script src="blood_splash.js"></script>
+  </body>
+</html>
