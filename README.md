@@ -34,10 +34,12 @@ Interaction is intentionally restrained: the user's only agency is selection. On
 - A looping choir and metal drone pass through a custom audio graph (low-pass, high-pass, shared reverb), with a silent sine oscillator providing low-frequency modulation.
 - Brightness drives the sound in real time, with all values smoothed using `lerp`:
 
+<div align="center">
+
 <table>
   <tr>
-    <td valign="top" width="60%">
-      <table>
+    <td valign="middle" align="center">
+      <table align="center">
         <tr><th>Visual input</th><th>Audio parameter</th></tr>
         <tr><td>Centre slit</td><td>Crossfade between choir and drone</td></tr>
         <tr><td>Left slit</td><td>Choir playback speed</td></tr>
@@ -45,11 +47,13 @@ Interaction is intentionally restrained: the user's only agency is selection. On
         <tr><td>Overall brightness</td><td>Low-pass cutoff and reverb wet/dry mix</td></tr>
       </table>
     </td>
-    <td valign="top" width="40%" align="center">
+    <td valign="middle" align="center">
       <img src="./images/slit-preview.png" width="100%" alt="Slit-scan preview" />
     </td>
   </tr>
 </table>
+
+</div>
 
 **Interface**
 - Film selection cards with looping, muted previews
@@ -81,13 +85,17 @@ The project developed iteratively. Early experiments with GAN-generated film sti
 
 ## Preview
 
+<div align="center">
+
 <table>
   <tr>
-    <td width="50%" align="center" valign="top">
+    <td width="50%" valign="middle" align="center">
       <img src="./images/main-menu.png" width="100%" alt="Main menu with film selection cards" />
     </td>
-    <td width="50%" align="center" valign="top">
+    <td width="50%" valign="middle" align="center">
       <img src="./images/slit-scan-diagram.png" width="100%" alt="Slit-scan diagram" />
     </td>
   </tr>
 </table>
+
+</div>
