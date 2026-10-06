@@ -14,7 +14,7 @@ Interaction is intentionally restrained: the user's only agency is selection. On
 
 ---
 
-## Technologies
+## 🦇Technologies
 
 - **HTML / CSS / JavaScript** for the interface, styling and pixel-level video processing
 - **[p5.js](https://p5js.org/)** and **p5.sound** for canvas rendering, filters, reverb and oscillator
@@ -24,7 +24,7 @@ Interaction is intentionally restrained: the user's only agency is selection. On
 
 ---
 
-## Features
+## 🦇Features
 
 **Real-time slit-scan visuals**
 - Three vertical slits (25%, 50%, 75% of the frame width) are sampled from every video frame and converted to greyscale luminance.
@@ -62,7 +62,7 @@ Interaction is intentionally restrained: the user's only agency is selection. On
 
 ---
 
-## The Process
+## 🦇The Process
 
 The project developed iteratively. Early experiments with GAN-generated film stills, waveform visualisations and multi-panel layouts were dropped: the GAN workflow was too heavy for real-time use, and multi-panel layouts fragmented the experience. The real-time slit-scan became the core framework. Image and sound were then unified so that different regions of the source drive separate sonic functions, and user controls were deliberately removed to favour observation over manipulation.
 
@@ -70,7 +70,7 @@ The project developed iteratively. Early experiments with GAN-generated film sti
 
 ---
 
-## Running the Project
+## 🦇Running the Project
 
 1. Click **Code → Download ZIP** on this repository and extract it.
 2. Open the extracted folder in a terminal.
@@ -83,7 +83,7 @@ The project developed iteratively. Early experiments with GAN-generated film sti
 
 ---
 
-## Preview
+## 🦇Preview
 
 <div align="center">
 
