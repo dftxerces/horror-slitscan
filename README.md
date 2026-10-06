@@ -6,7 +6,7 @@
   <img src="./images/banner.jpeg" width="100%" alt="Seventh Victim Banner" />
 </div>
 
-## About
+## 🦇About
 
 Horror-Slitscan is a web-based generative art piece built around the ideas of **contaminated media** and **found footage**. The user picks a film noir-era horror trailer (*The Seventh Victim*, *The Haunting* or *Cat People*) and the system strips away its narrative, dialogue and soundtrack, keeping only **luminance data**. That data drives a new abstract visual surface and a synthetic soundscape, shifting focus from storytelling to mood, texture and distortion.
 
