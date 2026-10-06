@@ -35,14 +35,14 @@ Interaction is intentionally restrained: the user's only agency is selection. On
 - A looping choir and metal drone pass through a custom audio graph (low-pass, high-pass, shared reverb), with a silent sine oscillator providing low-frequency modulation.
 - Brightness drives the sound in real time, with all values smoothed using `lerp`:
 
-<div align="center">
+
   | Visual input | Audio parameter |
   |--------------|-----------------|
   | Centre slit | Crossfade between choir and drone |
   | Left slit | Choir playback speed |
   | Right slit | Drone playback speed and volume (darker = louder) |
   | Overall brightness | Low-pass cutoff and reverb wet/dry mix |
-</div>
+
 
 <div align="center">
   <img src="./images/slit-preview.png" width="100%" alt="Seventh Victim Banner" />
