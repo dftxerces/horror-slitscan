@@ -87,15 +87,11 @@ The project developed iteratively. Early experiments with GAN-generated film sti
 
 <div align="center">
 
-<table>
-  <tr>
-    <td width="50%" valign="middle" align="center">
-      <img src="./images/main-menu.png" width="100%" alt="Main menu with film selection cards" />
-    </td>
-    <td width="50%" valign="middle" align="center">
-      <img src="./images/slit-scan-diagram.png" width="100%" alt="Slit-scan diagram" />
-    </td>
-  </tr>
-</table>
+
+
+  <img src="./images/main-menu.png" width="100%" alt="Main menu with film selection cards" />
+
+  <img src="./images/slit-scan-diagram.png" width="100%" alt="Slit-scan diagram" />
+
 
 </div>
