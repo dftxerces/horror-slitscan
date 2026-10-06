@@ -1,10 +1,9 @@
 # Horror-Slitscan
-
-*A generative audiovisual artwork that turns horror trailers into abstract slit-scan traces and reactive sound.*
 <div align="center">
+*A generative audiovisual artwork that turns horror trailers into abstract slit-scan traces and reactive sound.*
+
   <img src="./images/banner.jpeg" width="100%" alt="Seventh Victim Banner" />
 </div>
----
 
 ## About
 
