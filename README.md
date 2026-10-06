@@ -42,6 +42,10 @@ Interaction is intentionally restrained: the user's only agency is selection. On
 | Right slit | Drone playback speed and volume (darker = louder) |
 | Overall brightness | Low-pass cutoff and reverb wet/dry mix |
 
+<div align="center">
+  <img src="./images/slit-preview.png" width="100%" alt="Seventh Victim Banner" />
+</div>
+
 **Interface**
 - Film selection cards with looping, muted previews
 - Save button to export the canvas as an image, and a return arrow that fades back to the landing screen
@@ -72,9 +76,9 @@ The project developed iteratively. Early experiments with GAN-generated film sti
 
 ## Preview
 
-> Replace the paths below with your own screenshots or GIFs.
-
-![Film selection screen](preview/landing.png)
-![Slit-scan output](preview/slitscan-1.png)
-![Slit-scan output](preview/slitscan-2.png)
-![Cursor and blood-splatter overlay](preview/splatter.png)
+<div align="center">
+  <img src="./images/main-menu.png" width="100%" alt="Seventh Victim Banner" />
+</div>
+<div align="center">
+  <img src="./images/slit-scan-diagram.png" width="100%" alt="Seventh Victim Banner" />
+</div>
