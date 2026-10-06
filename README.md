@@ -1,6 +1,5 @@
 # Horror-Slitscan
 
-
 *A generative audiovisual artwork that turns horror trailers into abstract slit-scan traces and reactive sound.*
 
 <div align="center">
@@ -35,18 +34,22 @@ Interaction is intentionally restrained: the user's only agency is selection. On
 - A looping choir and metal drone pass through a custom audio graph (low-pass, high-pass, shared reverb), with a silent sine oscillator providing low-frequency modulation.
 - Brightness drives the sound in real time, with all values smoothed using `lerp`:
 
-
-  | Visual input | Audio parameter |
-  |--------------|-----------------|
-  | Centre slit | Crossfade between choir and drone |
-  | Left slit | Choir playback speed |
-  | Right slit | Drone playback speed and volume (darker = louder) |
-  | Overall brightness | Low-pass cutoff and reverb wet/dry mix |
-
-
-<div align="center">
-  <img src="./images/slit-preview.png" width="40%" alt="Seventh Victim Banner" />
-</div>
+<table>
+  <tr>
+    <td valign="top" width="60%">
+      <table>
+        <tr><th>Visual input</th><th>Audio parameter</th></tr>
+        <tr><td>Centre slit</td><td>Crossfade between choir and drone</td></tr>
+        <tr><td>Left slit</td><td>Choir playback speed</td></tr>
+        <tr><td>Right slit</td><td>Drone playback speed and volume (darker = louder)</td></tr>
+        <tr><td>Overall brightness</td><td>Low-pass cutoff and reverb wet/dry mix</td></tr>
+      </table>
+    </td>
+    <td valign="top" width="40%" align="center">
+      <img src="./images/slit-preview.png" width="100%" alt="Slit-scan preview" />
+    </td>
+  </tr>
+</table>
 
 **Interface**
 - Film selection cards with looping, muted previews
@@ -68,19 +71,23 @@ The project developed iteratively. Early experiments with GAN-generated film sti
 1. Click **Code → Download ZIP** on this repository and extract it.
 2. Open the extracted folder in a terminal.
 3. Install dependencies and start the dev server:
-   ```bash
+```bash
    npm install
    npm run dev
-   ```
+```
 4. Open the local address shown in the terminal and pick a film. Audio starts after your first click, as browsers require a user gesture.
 
 ---
 
 ## Preview
 
-<div align="center">
-  <img src="./images/main-menu.png" width="100%" alt="Seventh Victim Banner" />
-</div>
-<div align="center">
-  <img src="./images/slit-scan-diagram.png" width="100%" alt="Seventh Victim Banner" />
-</div>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="./images/main-menu.png" width="100%" alt="Main menu with film selection cards" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="./images/slit-scan-diagram.png" width="100%" alt="Slit-scan diagram" />
+    </td>
+  </tr>
+</table>
